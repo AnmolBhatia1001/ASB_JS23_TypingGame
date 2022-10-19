@@ -1,0 +1,144 @@
+@font-face {
+    font-family: Striker;
+    src: url(./Striker-1GXl0.otf);
+}
+
+
+:root{
+    --palette-1-color: #abd6bd;
+    --palette-2-color: #212429;
+    --palette-3-color: #e7ebee;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--palette-2-color);
+
+}
+
+h1{
+    font-family: Striker;
+    color: var(--palette-3-color);
+    text-align: center;
+    margin-top: 1em;
+}
+
+.container{
+    margin: 2em 4em;
+    min-height: 500px;
+    background-color: var(--palette-1-color);
+    border-radius: 0.5em;
+    opacity: 0.75;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 5px 15px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.fetched-text{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: var(--palette-2-color);
+    font-size: 1.5em;
+    padding: 1em 2em;
+    width: 100%;
+    margin: auto;
+}
+
+.text-input-area{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: var(--palette-1-color);
+    padding: 1em 1.5em;
+    width: 100%;
+    margin: auto;
+}
+
+.btn-timer{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    padding: 1em 2.5em;
+    width: 100%;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#input-area{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    width: 100%;
+
+    font-size: 1.5em;
+    margin: auto;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+
+    outline: none;
+    resize: none;
+}
+
+#input-area:focus{
+    border: 2px solid black;
+    outline: var(--palette-2-color);
+}
+
+
+.try-again-div{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    padding: 1em 2.5em;
+    width: 100%;
+    margin: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.try-again-div button{
+    background-color: var(--palette-2-color);
+    color: white;
+    font-family: Striker;
+    font-size: 1.25em;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+
+.btn-div button{
+    background-color: var(--palette-2-color);
+    color: white;
+    font-family: Striker;
+    font-size: 1.5em;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+
+.timer-div{
+    background-color: var(--palette-2-color);
+    color: white;
+    font-family: Striker;
+    font-size: 1.5em;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 0.5em;
+    font-weight: 500;
+
+}
+
+.timer-div span{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 1.25em;
+}
