@@ -142,3 +142,13 @@ h1{
     text-align: center;
     font-size: 1.25em;
 }
+
+
+.correct{
+    color: green;
+}
+
+.incorrect{
+    color: red;
+    text-decoration: underline;
+}
